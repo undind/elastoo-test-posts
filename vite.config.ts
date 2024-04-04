@@ -7,7 +7,7 @@ import VueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'https://undind.github.io/elastoo-test-posts',
+  base: '/elastoo-test-posts/',
   plugins: [
     vue(),
     vueJsx(),
