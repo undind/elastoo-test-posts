@@ -21,7 +21,8 @@ export const usePostsStore = defineStore('posts', {
       try {
         this.viewPost = await getPost(id)
       } catch (error) {
-        return error
+        console.log(error)
+        throw error
       }
     },
     removePost(id: number) {
